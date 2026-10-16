@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b0d14">
+  <meta name="description" content="Portfólio de Gustavo Macedo, estudante de Ciência da Computação na PUC Minas. Projetos, experiências e contato.">
+  <title>Gustavo Macedo — Desenvolvimento de Software</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#sobre">Pular para o conteúdo</a>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Navegação principal">
+      <a href="#inicio" class="brand" aria-label="Gustavo Macedo, início"><span class="brand-prompt">&gt;_</span> gustavo<span class="accent">.dev</span></a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#sobre" data-i18n="navAbout">Sobre</a>
+        <a href="#projetos" data-i18n="navProjects">Projetos</a>
+        <a href="#experiencias" data-i18n="navExperience">Experiências</a>
+        <a href="#contato" data-i18n="navContact">Contato</a>
+      </div>
+      <button class="language-toggle" id="language-toggle" type="button" aria-label="Change language to English">PT <span class="lang-divider">/</span> EN</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero shell" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="pulse-dot"></span><span data-i18n="heroKicker">PORTFÓLIO / 2026</span></p>
+        <h1 id="hero-title"><span data-i18n="heroHello">Olá, eu sou</span><br><strong>Gustavo <span class="name-accent">Macedo</span><span class="cursor" aria-hidden="true">_</span></strong></h1>
+        <p class="hero-role" data-i18n="heroRole">Estudante de Ciência da Computação · PUC Minas</p>
+        <p class="hero-description" data-i18n="heroDesc">Gosto de entender problemas, construir soluções e transformar boas ideias em software. Entre código, aprendizado e novos projetos.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projetos"><span data-i18n="viewProjects">Ver projetos</span><span aria-hidden="true"> ↗</span></a>
+          <a class="btn btn-outline" href="#contato"><span data-i18n="getInTouch">Entrar em contato</span><span aria-hidden="true"> →</span></a>
+        </div>
+        <div class="hero-meta"><span><span class="meta-star">✦</span> <span data-i18n="heroMeta">Desenvolvimento · Tecnologia · Criatividade</span></span></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustração abstrata de uma janela de código e paisagem noturna">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="terminal-window">
+          <div class="terminal-bar"><div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div><span>~/workspace/about-me.js</span><span class="terminal-marks">⌁</span></div>
+          <div class="terminal-code" aria-hidden="true">
+            <p><span class="line-number">01</span><span class="syntax-purple">const</span> developer = {</p>
+            <p><span class="line-number">02</span>&nbsp; name: <span class="syntax-pink">"Gustavo Macedo"</span>,</p>
+            <p><span class="line-number">03</span>&nbsp; focus: <span class="syntax-pink">"back-end"</span>,</p>
+            <p><span class="line-number">04</span>&nbsp; curiosity: <span class="syntax-green">true</span>,</p>
+            <p><span class="line-number">05</span>&nbsp; learning: <span class="syntax-green">"always"</span></p>
+            <p><span class="line-number">06</span>};</p>
+            <p class="code-comment"><span class="line-number">07</span>// build something meaningful_</p>
+          </div>
+          <div class="terminal-status"><span>● live / local</span><span>UTF-8 · JS</span></div>
+        </div>
+        <div class="pixel-landscape" aria-hidden="true">
+          <span class="moon"></span><span class="star s1">✦</span><span class="star s2">✧</span><span class="star s3">·</span>
+          <div class="hills hill-back"></div><div class="hills hill-front"></div>
+          <div class="cityline"></div>
+          <div class="landscape-caption">night mode <span>☾</span></div>
+        </div>
+        <div class="float-label">[ status: building ]</div>
+      </div>
+      <a class="scroll-cue" href="#sobre"><span data-i18n="scrollDown">ROLAR PARA EXPLORAR</span> <span>↓</span></a>
+    </section>
+
+    <section class="section shell" id="sobre" aria-labelledby="about-title">
+      <div class="section-line"><span class="section-no">01 /</span><span data-i18n="sectionAbout">SOBRE MIM</span><span class="line"></span></div>
+      <div class="about-grid">
+        <div>
+          <p class="eyebrow" data-i18n="aboutEyebrow">UM POUCO SOBRE MIM</p>
+          <h2 id="about-title" data-i18n="aboutTitle">Curiosidade que vira <em>solução.</em></h2>
+          <p data-i18n="aboutP1">Sou estudante de Ciência da Computação na PUC Minas, com interesse especial em desenvolvimento de software e back-end.</p>
+          <p data-i18n="aboutP2">Nos projetos acadêmicos, venho trabalhando com implementação de funcionalidades, documentação técnica, correção de bugs e criação de testes. Busco evoluir construindo aplicações úteis e compreendendo suas decisões técnicas.</p>
+          <div class="skill-list" aria-label="Tecnologias e áreas de interesse"><span>Java</span><span>Spring Boot</span><span>JavaScript</span><span>Git / GitHub</span><span>HTML / CSS</span><span>SQL</span></div>
+        </div>
+        <aside class="about-aside">
+          <div class="aside-label"><span>✳</span> developer.notes</div>
+          <div class="note-row"><span>01</span><p data-i18n="note1">Código limpo e manutenção</p></div>
+          <div class="note-row"><span>02</span><p data-i18n="note2">Aprendizado contínuo</p></div>
+          <div class="note-row"><span>03</span><p data-i18n="note3">Colaboração e resolução de problemas</p></div>
+          <div class="note-quote"><span>“</span><p data-i18n="aboutQuote">Uma boa ideia fica melhor quando alguém consegue transformá-la em algo que funciona.</p></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section shell" id="projetos" aria-labelledby="projects-title">
+      <div class="section-line"><span class="section-no">02 /</span><span data-i18n="sectionProjects">PROJETOS</span><span class="line"></span></div>
+      <div class="section-head"><div><p class="eyebrow" data-i18n="projectEyebrow">CÓDIGO NA PRÁTICA</p><h2 id="projects-title" data-i18n="projectsTitle">Projetos <em>selecionados.</em></h2></div><p class="section-intro" data-i18n="projectsIntro">Algumas experiências de desenvolvimento, apresentadas em ordem cronológica — do mais antigo ao mais recente.</p></div>
+      <div class="projects-timeline" id="projects-list" aria-live="polite"><p class="loading-placeholder">Carregando projetos...</p></div>
+      <p class="section-footnote" data-i18n="projectsFootnote">As imagens são peças visuais ilustrativas. Substitua-as por capturas reais da aplicação antes da entrega.</p>
+    </section>
+
+    <section class="section shell" id="experiencias" aria-labelledby="experience-title">
+      <div class="section-line"><span class="section-no">03 /</span><span data-i18n="sectionExperience">EXPERIÊNCIAS</span><span class="line"></span></div>
+      <div class="section-head"><div><p class="eyebrow" data-i18n="experienceEyebrow">EM CONSTRUÇÃO</p><h2 id="experience-title" data-i18n="experienceTitle">Minha <em>trajetória.</em></h2></div><p class="section-intro" data-i18n="experienceIntro">Uma combinação de formação acadêmica, desenvolvimento colaborativo e evolução técnica.</p></div>
+      <div class="experience-list">
+        <article class="experience-item"><div class="exp-marker">✳</div><div><div class="exp-top"><h3 data-i18n="exp1Title">Bacharelado em Ciência da Computação</h3><span data-i18n="ongoing">Em andamento</span></div><p class="exp-place">PUC Minas</p><p data-i18n="exp1Desc">Formação acadêmica em programação, estruturas de dados, desenvolvimento de interfaces e fundamentos de computação.</p></div></article>
+        <article class="experience-item"><div class="exp-marker">⌘</div><div><div class="exp-top"><h3 data-i18n="exp2Title">Colaboração no Hub Universitário</h3><span>2026</span></div><p class="exp-place" data-i18n="exp2Place">Projeto de desenvolvimento de software</p><p data-i18n="exp2Desc">Atuação em documentação técnica, back-end, correção de bugs e desenvolvimento de testes.</p></div></article>
+        <article class="experience-item"><div class="exp-marker">◇</div><div><div class="exp-top"><h3 data-i18n="exp3Title">Projeto acadêmico Trilhô</h3><span>2026</span></div><p class="exp-place" data-i18n="exp3Place">Trabalho de equipe</p><p data-i18n="exp3Desc">Participação no desenvolvimento do módulo de favoritos, com foco na interação do usuário e integração com os dados do projeto.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section shell section-contact" id="contato" aria-labelledby="contact-title">
+      <div class="section-line"><span class="section-no">04 /</span><span data-i18n="sectionContact">CONTATO</span><span class="line"></span></div>
+      <div class="contact-grid">
+        <div class="contact-copy"><p class="eyebrow" data-i18n="contactEyebrow">UM NOVO CAPÍTULO?</p><h2 id="contact-title" data-i18n="contactTitle">Vamos criar algo <em>interessante.</em></h2><p data-i18n="contactIntro">Quer conversar sobre código, projetos ou oportunidades? Envie uma mensagem ou me encontre nos links abaixo.</p><div class="social-links"><a href="https://github.com/owatsuki" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Gustavo Macedo">GitHub <span>↗</span></a><a id="email-link" href="#contato" aria-label="E-mail profissional">E-mail <span>↗</span></a><a id="linkedin-link" href="#contato" hidden>LinkedIn <span>↗</span></a></div><div class="contact-decoration" aria-hidden="true"><span>✧</span><span>·</span><span>✦</span><span>·</span></div></div>
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-head"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>~/send-message</span><span>↗</span></div>
+          <label for="contact-name" data-i18n="fieldName">Seu nome</label><input id="contact-name" name="name" autocomplete="name" minlength="2" maxlength="100" required placeholder="Como posso chamar você?" data-placeholder="namePlaceholder">
+          <label for="contact-email" data-i18n="fieldEmail">Seu e-mail</label><input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" required placeholder="voce@exemplo.com" data-placeholder="emailPlaceholder">
+          <label for="contact-message" data-i18n="fieldMessage">Sua mensagem</label><textarea id="contact-message" name="message" rows="5" minlength="10" maxlength="3000" required placeholder="Escreva sua mensagem..." data-placeholder="messagePlaceholder"></textarea>
+          <div class="honeypot" aria-hidden="true"><label for="website">Não preencher</label><input type="text" id="website" name="_honey" tabindex="-1" autocomplete="off"></div>
+          <button type="submit" id="submit-button" class="btn btn-primary"><span data-i18n="sendMessage">Enviar mensagem</span><span aria-hidden="true">↗</span></button>
+          <p role="status" aria-live="polite" class="form-status" id="form-status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer shell"><a href="#inicio" class="brand"><span class="brand-prompt">&gt;_</span> gustavo.dev</a><p data-i18n="footer">Feito com curiosidade, código e café. © 2026</p><a href="#inicio" class="back-to-top" aria-label="Voltar ao topo">↑</a></footer>
+</body>
+</html>
