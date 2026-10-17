@@ -4,9 +4,8 @@
 
 ## Status
 
-**Versão inicial implementada localmente.** Publicação e testes externos pendentes. Não marcar como concluído antes de validar a URL pública e o envio do formulário.
-
-**Site online:** `ADICIONAR_URL_DA_VERCEL_AQUI`
+**Status:** Publicado na Vercel. Validação final das funcionalidades e do formulário de contato em andamento.
+**Site online:** https://portfolio-owatsuki.vercel.app/
 
 ## Sobre o projeto
 
@@ -121,7 +120,7 @@ O serviço utilizado: https://formsubmit.co/ . Por ser uma integração externa,
 - [x] Configurar e-mail de contato (`guccs.cina@gmail.com`).
 - [ ] Ativar FormSubmit e verificar recebimento real. LinkedIn opcional em `CONFIG.LINKEDIN_URL`.
 - [ ] Criar o arquivo de wireframes no Figma e guardar o link nele.
-- [ ] Inserir URL pública da Vercel aqui e no campo da entrega.
+- [x] Publicar o portfólio na Vercel e registrar a URL no README.
 - [ ] Executar e registrar testes da versão publicada (formulário, idioma, navegação, imagens e mobile).
 
 ## Projetos em destaque
