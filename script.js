@@ -16,7 +16,7 @@ const PROJECTS = [
     title: 'Hub Universitário',
     sortDate: '2026-08-01',
     period: '2026',
-    image: 'assets/hub-preview.svg',
+    image: 'assets/hub-capa-portfolio.webp',
     github: 'https://github.com/DanielFigues/hub-universitario',
     tags: ['React', 'TypeScript', 'Java', 'Spring Boot'],
     description: {
@@ -33,9 +33,9 @@ const PROJECTS = [
     title: 'Trilhô',
     sortDate: '2026-09-01',
     period: '2026',
-    image: 'assets/trilho-preview.svg',
+    image: 'assets/trilho-real.webp',
     github: 'https://github.com/ICEI-PUC-Minas-CC-TI/plu-cc-2026-2-ti2-4354100-plu-cc-2026-2-ti2-4354100-group-1',
-    tags: ['JavaScript', 'HTML', 'CSS'], // confirme tecnologias exatas antes da entrega
+    tags: ['JavaScript', 'HTML', 'CSS'],
     description: {
       pt: 'Aplicação desenvolvida em equipe para organizar e explorar experiências de trilhas.',
       en: 'Team-developed application to organize and explore hiking experiences.'
