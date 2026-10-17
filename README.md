@@ -4,7 +4,7 @@
 
 ## Status
 
-**Status:** Publicado na Vercel. Validação final das funcionalidades e do formulário de contato em andamento.
+**Status:** Portfólio publicado e validado em produção em 16/10/2026. Navegação, idiomas, imagens, links, formulário de contato e responsividade testados.
 
 **Site online:** https://portfolio-owatsuki.vercel.app/
 
@@ -24,7 +24,7 @@ Página única de apresentação profissional com quatro seções navegáveis po
 
 ## Prototipação / Sprint 01
 
-A prototipação de média fidelidade inclui as quatro seções nas versões desktop e mobile. As imagens abaixo são **bases de wireframe** para importar e organizar no Figma; a criação/registro do arquivo Figma ainda precisa ser realizada.
+Os wireframes de média fidelidade foram desenvolvidos no Figma, contemplando as quatro seções do portfólio nas versões desktop e mobile, com elementos editáveis.
 
 **Wireframes no Figma:** [Visualizar protótipos](https://www.figma.com/design/Bmr3IEFYaIZ6XdJ0fbWxhe)
 
@@ -115,16 +115,19 @@ O formulário **não envia mensagens até que seja configurado e ativado**.
 
 O serviço utilizado: https://formsubmit.co/ . Por ser uma integração externa, depende de conectividade e do funcionamento do provedor.
 
-## Dados reais pendentes de conferência
+## Verificação final da entrega
 
-- [ ] Confirmar ordem cronológica exata de **Hub Universitário** e **Trilhô**. Datas provisórias em `PROJECTS.sortDate`.
-- [ ] Substituir as imagens SVG ilustrativas dos projetos por **capturas de tela reais ou GIFs de funcionamento** e atualizar os caminhos em `script.js`.
-- [ ] Confirmar as tecnologias listadas para o Trilhô e os detalhes de suas contribuições.
-- [x] Configurar e-mail de contato (`guccs.cina@gmail.com`).
-- [ ] Ativar FormSubmit e verificar recebimento real. LinkedIn opcional em `CONFIG.LINKEDIN_URL`.
-- [ ] Criar o arquivo de wireframes no Figma e guardar o link nele.
-- [x] Publicar o portfólio na Vercel e registrar a URL no README.
-- [ ] Executar e registrar testes da versão publicada (formulário, idioma, navegação, imagens e mobile).
+- [x] Repositório GitHub público e organizado.
+- [x] Wireframes desktop e mobile criados no Figma.
+- [x] Portfólio publicado na Vercel.
+- [x] Navegação entre as quatro seções.
+- [x] Alternância entre português e inglês.
+- [x] Timeline dinâmica de projetos.
+- [x] Formulário funcional com recebimento de e-mail confirmado.
+- [x] Layout responsivo testado.
+- [x] Imagem do projeto Trilhô incorporada.
+- [x] Prévia visual do Hub Universitário incorporada.
+
 
 ## Projetos em destaque
 
