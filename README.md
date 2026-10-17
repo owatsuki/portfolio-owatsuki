@@ -26,6 +26,8 @@ Página única de apresentação profissional com quatro seções navegáveis po
 
 A prototipação de média fidelidade inclui as quatro seções nas versões desktop e mobile. As imagens abaixo são **bases de wireframe** para importar e organizar no Figma; a criação/registro do arquivo Figma ainda precisa ser realizada.
 
+**Wireframes no Figma:** [Visualizar protótipos](https://www.figma.com/design/Bmr3IEFYaIZ6XdJ0fbWxhe)
+
 ### Wireframe desktop
 
 ![Wireframe desktop](docs/wireframe-desktop.png)
