@@ -5,6 +5,7 @@
 ## Status
 
 **Status:** Publicado na Vercel. Validação final das funcionalidades e do formulário de contato em andamento.
+
 **Site online:** https://portfolio-owatsuki.vercel.app/
 
 ## Sobre o projeto
